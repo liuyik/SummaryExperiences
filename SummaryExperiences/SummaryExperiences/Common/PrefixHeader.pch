@@ -1,0 +1,43 @@
+//
+//  PrefixHeader.pch
+//  SummaryExperiences
+//
+//  Created by 刘毅 on 2017/3/23.
+//  Copyright © 2017年 刘毅. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__
+#import <AFNetworking.h>
+#import <JSONKit.h>
+#import <MBProgressHUD.h>
+#import <MJRefresh.h>
+//#import "UIViewExt.h"
+//#import "UIColor+RGB.h"
+//#import "MJExtension.h"
+//#import "UIView+ViewController.h"
+#import "UIImageView+WebCache.h"
+#import "UIButton+WebCache.h"
+//#import "UIImageView+CircleImage.h"
+
+#endif
+
+//主色调
+#define ThemeColor @"12A6F1"
+
+//取得屏幕的宽、高
+#define KScreenWidth  [UIScreen mainScreen].bounds.size.width
+#define KScreenHeight [UIScreen mainScreen].bounds.size.height
+
+
+//调试状态
+#ifdef DEBUG
+#define NSLogJY(...) NSLog(__VA_ARGS__)
+#else
+#define NSLogJY(...)
+#endif
+
+
+#endif /* PrefixHeader_pch */

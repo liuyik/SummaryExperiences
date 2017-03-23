@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		39A77FA22724987DD96898BA /* libPods-SummaryExperiences.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F386730CF30BEC30A431BF37 /* libPods-SummaryExperiences.a */; };
+		D6A8AAAF1E83BD3700FDB279 /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A8AAAE1E83BD3700FDB279 /* UIView+ViewController.m */; };
+		D6A8AAB71E83C17200FDB279 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A8AAB61E83C17200FDB279 /* UIColor+Hex.m */; };
+		D6A8AABA1E83C30C00FDB279 /* UIImageView+CircleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A8AAB91E83C30C00FDB279 /* UIImageView+CircleImage.m */; };
+		D6A8AABE1E83C42500FDB279 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A8AABD1E83C42500FDB279 /* UIViewExt.m */; };
 		D6F955311E83A56E00F7125E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F955301E83A56E00F7125E /* main.m */; };
 		D6F955341E83A56E00F7125E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F955331E83A56E00F7125E /* AppDelegate.m */; };
 		D6F955371E83A56E00F7125E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F955361E83A56E00F7125E /* ViewController.m */; };
@@ -19,6 +23,15 @@
 /* Begin PBXFileReference section */
 		1C7339235D82D297DC6CFCF1 /* Pods-SummaryExperiences.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SummaryExperiences.release.xcconfig"; path = "Pods/Target Support Files/Pods-SummaryExperiences/Pods-SummaryExperiences.release.xcconfig"; sourceTree = "<group>"; };
 		A0DA7CB711932A3C56E6D65C /* Pods-SummaryExperiences.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SummaryExperiences.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SummaryExperiences/Pods-SummaryExperiences.debug.xcconfig"; sourceTree = "<group>"; };
+		D6A8AAAC1E83B65F00FDB279 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		D6A8AAAD1E83BD3700FDB279 /* UIView+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewController.h"; sourceTree = "<group>"; };
+		D6A8AAAE1E83BD3700FDB279 /* UIView+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewController.m"; sourceTree = "<group>"; };
+		D6A8AAB51E83C17200FDB279 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		D6A8AAB61E83C17200FDB279 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		D6A8AAB81E83C30C00FDB279 /* UIImageView+CircleImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CircleImage.h"; sourceTree = "<group>"; };
+		D6A8AAB91E83C30C00FDB279 /* UIImageView+CircleImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CircleImage.m"; sourceTree = "<group>"; };
+		D6A8AABC1E83C42500FDB279 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		D6A8AABD1E83C42500FDB279 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
 		D6F9552C1E83A56E00F7125E /* SummaryExperiences.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SummaryExperiences.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6F955301E83A56E00F7125E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D6F955321E83A56E00F7125E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -61,6 +74,45 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		D6A8AAA91E83B56F00FDB279 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				D6A8AABB1E83C42500FDB279 /* UIViewExt */,
+				D6A8AAAB1E83B64C00FDB279 /* Category */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		D6A8AAAA1E83B64100FDB279 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D6A8AAAC1E83B65F00FDB279 /* PrefixHeader.pch */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D6A8AAAB1E83B64C00FDB279 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D6A8AAB81E83C30C00FDB279 /* UIImageView+CircleImage.h */,
+				D6A8AAB91E83C30C00FDB279 /* UIImageView+CircleImage.m */,
+				D6A8AAAD1E83BD3700FDB279 /* UIView+ViewController.h */,
+				D6A8AAAE1E83BD3700FDB279 /* UIView+ViewController.m */,
+				D6A8AAB51E83C17200FDB279 /* UIColor+Hex.h */,
+				D6A8AAB61E83C17200FDB279 /* UIColor+Hex.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		D6A8AABB1E83C42500FDB279 /* UIViewExt */ = {
+			isa = PBXGroup;
+			children = (
+				D6A8AABC1E83C42500FDB279 /* UIViewExt.h */,
+				D6A8AABD1E83C42500FDB279 /* UIViewExt.m */,
+			);
+			path = UIViewExt;
+			sourceTree = "<group>";
+		};
 		D6F955231E83A56D00F7125E = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +138,8 @@
 				D6F955331E83A56E00F7125E /* AppDelegate.m */,
 				D6F955351E83A56E00F7125E /* ViewController.h */,
 				D6F955361E83A56E00F7125E /* ViewController.m */,
+				D6A8AAAA1E83B64100FDB279 /* Common */,
+				D6A8AAA91E83B56F00FDB279 /* Tools */,
 				D6F955381E83A56E00F7125E /* Main.storyboard */,
 				D6F9553B1E83A56E00F7125E /* Assets.xcassets */,
 				D6F9553D1E83A56E00F7125E /* LaunchScreen.storyboard */,
@@ -226,8 +280,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6A8AABE1E83C42500FDB279 /* UIViewExt.m in Sources */,
 				D6F955371E83A56E00F7125E /* ViewController.m in Sources */,
+				D6A8AAB71E83C17200FDB279 /* UIColor+Hex.m in Sources */,
+				D6A8AAAF1E83BD3700FDB279 /* UIView+ViewController.m in Sources */,
 				D6F955341E83A56E00F7125E /* AppDelegate.m in Sources */,
+				D6A8AABA1E83C30C00FDB279 /* UIImageView+CircleImage.m in Sources */,
 				D6F955311E83A56E00F7125E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,6 +406,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9XXQS79WF8;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SummaryExperiences/Common/PrefixHeader.pch";
 				INFOPLIST_FILE = SummaryExperiences/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -362,6 +421,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9XXQS79WF8;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SummaryExperiences/Common/PrefixHeader.pch";
 				INFOPLIST_FILE = SummaryExperiences/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
