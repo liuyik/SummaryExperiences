@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CalendarController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -53,6 +54,10 @@
     return 40;
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    CalendarController *cc = [[CalendarController alloc] init];
+    cc.title = @"日历";
+    [self showViewController:cc sender:nil];
 }
     
 @end
