@@ -17,7 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.title = @"日历";
     self.view.backgroundColor = [UIColor whiteColor];
+    
     LYCalendarPicker *picker = [[LYCalendarPicker alloc] initWithFrame:CGRectMake(0, 64, KScreenWidth, 0)];
     picker.delegate = self;
     [self.view addSubview:picker];

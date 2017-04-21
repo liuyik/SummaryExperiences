@@ -31,6 +31,7 @@ DEPENDENCIES:
   - MBProgressHUD (~> 1.0.0)
   - MJExtension (~> 3.0.13)
   - MJRefresh (~> 3.1.12)
+  - RATreeView (~> 2.1.0)
   - RATreeView (~> 2.1.2)
   - SDWebImage (~> 3.8.1)
 
@@ -44,6 +45,6 @@ SPEC CHECKSUMS:
   RATreeView: 380cde0090cfde21dc6ac29137f49d3b768fdd28
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
 
-PODFILE CHECKSUM: 6b24f8b754d06659df44dc576ba45a28a9c3d168
+PODFILE CHECKSUM: 67b72bbfb60d20cf9dafd0c3d68e7377c7b42210
 
 COCOAPODS: 1.1.1

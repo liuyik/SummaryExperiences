@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import "CalendarController.h"
+#import "CartViewController.h"
+#import "TreeViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -28,7 +30,7 @@
 //数据
 - (NSArray *)data {
     if (_data == nil) {
-        _data = @[@"日历"];
+        _data = @[@"日历",@"购物车",@"树结构"];
     }
     return _data;
 }
@@ -55,9 +57,32 @@
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    CalendarController *cc = [[CalendarController alloc] init];
-    cc.title = @"日历";
-    [self showViewController:cc sender:nil];
+    switch (indexPath.row) {
+        case 0:
+        {
+            CalendarController *vc = [[CalendarController alloc] init];
+            
+            [self showViewController:vc sender:nil];
+        }
+            break;
+        case 1:
+        {
+            CartViewController *vc = [[CartViewController alloc] init];
+            
+            [self showViewController:vc sender:nil];
+        }
+            break;
+        case 2:
+        {
+            TreeViewController *vc = [[TreeViewController alloc] init];
+            
+            [self showViewController:vc sender:nil];
+        }
+            break;
+        default:
+            break;
+    }
+    
 }
     
 @end
