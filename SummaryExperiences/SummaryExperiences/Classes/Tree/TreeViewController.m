@@ -58,12 +58,12 @@
 //将要展开
 - (void)treeView:(RATreeView *)treeView willExpandRowForItem:(id)item {
     TreeCell *cell = (TreeCell *)[treeView cellForItem:item];
-    cell.iconView.image = [UIImage imageNamed:@"img_close"];
+    cell.iconView.highlighted = YES;
 }
 //将要收缩
 - (void)treeView:(RATreeView *)treeView willCollapseRowForItem:(id)item {
     TreeCell *cell = (TreeCell *)[treeView cellForItem:item];
-    cell.iconView.image = [UIImage imageNamed:@"img_open"];
+    cell.iconView.highlighted = NO;
 }
 //已经展开
 - (void)treeView:(RATreeView *)treeView didExpandRowForItem:(id)item {

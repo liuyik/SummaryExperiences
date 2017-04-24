@@ -7,14 +7,12 @@
 //
 
 #import "ViewController.h"
-#import "CalendarController.h"
-#import "CartViewController.h"
-#import "TreeViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic,strong) NSArray *data;
-    
+
+@property (nonatomic,strong) NSArray *controllerNames;
     
 @end
 
@@ -30,9 +28,15 @@
 //数据
 - (NSArray *)data {
     if (_data == nil) {
-        _data = @[@"日历",@"购物车",@"树结构"];
+        _data = @[@"日历",@"树结构",@"购物车"];
     }
     return _data;
+}
+- (NSArray *)controllerNames {
+    if (_controllerNames == nil) {
+        _controllerNames = @[@"CalendarController",@"TreeViewController",@"CartViewController"];
+    }
+    return _controllerNames;
 }
 //创建表示图
 - (void)createTableView {
@@ -57,31 +61,10 @@
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    switch (indexPath.row) {
-        case 0:
-        {
-            CalendarController *vc = [[CalendarController alloc] init];
-            
-            [self showViewController:vc sender:nil];
-        }
-            break;
-        case 1:
-        {
-            CartViewController *vc = [[CartViewController alloc] init];
-            
-            [self showViewController:vc sender:nil];
-        }
-            break;
-        case 2:
-        {
-            TreeViewController *vc = [[TreeViewController alloc] init];
-            
-            [self showViewController:vc sender:nil];
-        }
-            break;
-        default:
-            break;
-    }
+    
+    Class vc =  NSClassFromString(self.controllerNames[indexPath.row]);
+    
+    [self showViewController:[vc new] sender:nil];
     
 }
     

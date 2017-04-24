@@ -18,18 +18,12 @@
         cell = [[[NSBundle mainBundle] loadNibNamed:@"TreeCell" owner:nil options:nil] firstObject];
     }
     
-    
-    
     return cell;
-}
-- (void)awakeFromNib {
-    [super awakeFromNib];
-    // Initialization code
 }
 
 - (void)setCellBasicInfoWith:(NSString *)title level:(NSInteger)level children:(NSInteger )children{
     
-    //有自孩子时显示图标
+    //有子数组时显示图标
     if (children==0) {
         self.iconView.hidden = YES;
         
@@ -37,17 +31,11 @@
     else { //否则不显示
         self.iconView.hidden = NO;
     }
-    
     self.titleLable.text = title;
-//    self.iconView.image = [UIImage imageNamed:@"img_c"];
-    
-    
     //每一层的布局
     CGFloat left = 6+level*30;
     
     _leftWidth.constant = left;
-   
-    
     
 }
 

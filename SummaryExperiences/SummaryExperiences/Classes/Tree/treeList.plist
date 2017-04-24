@@ -241,7 +241,7 @@
 						<key>id</key>
 						<integer>14</integer>
 						<key>orgName</key>
-						<string>深圳市赛飞奇光子技术有限公司</string>
+						<string>深圳市XXX技术有限公司</string>
 						<key>pid</key>
 						<integer>8</integer>
 						<key>orgType</key>
@@ -266,7 +266,7 @@
 								<key>id</key>
 								<integer>4</integer>
 								<key>orgName</key>
-								<string>赛飞奇光子技术有限公司移动测试</string>
+								<string>XXX技术有限公司移动测试</string>
 								<key>pid</key>
 								<integer>14</integer>
 								<key>orgType</key>
@@ -292,7 +292,7 @@
 								<key>id</key>
 								<integer>23</integer>
 								<key>orgName</key>
-								<string>赛飞奇调试专用</string>
+								<string>XXX调试专用</string>
 								<key>pid</key>
 								<integer>14</integer>
 								<key>orgType</key>
@@ -398,7 +398,7 @@
 								<key>id</key>
 								<integer>21</integer>
 								<key>orgName</key>
-								<string>新华社深圳商品交易中心</string>
+								<string>XXX深圳商品交易中心</string>
 								<key>pid</key>
 								<integer>18</integer>
 								<key>orgType</key>
