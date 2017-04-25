@@ -28,13 +28,13 @@
 //数据
 - (NSArray *)data {
     if (_data == nil) {
-        _data = @[@"日历",@"树结构",@"购物车"];
+        _data = @[@"日历",@"树结构",@"瀑布流",@"购物车"];
     }
     return _data;
 }
 - (NSArray *)controllerNames {
     if (_controllerNames == nil) {
-        _controllerNames = @[@"CalendarController",@"TreeViewController",@"CartViewController"];
+        _controllerNames = @[@"CalendarController",@"TreeViewController",@"WaterFallController",@"CartViewController"];
     }
     return _controllerNames;
 }

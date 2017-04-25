@@ -11,11 +11,6 @@
 #import "CartModel.h"
 
 @interface CartViewController ()<UITableViewDelegate,UITableViewDataSource>
-{
-    BOOL _isHiddenNavigationBarWhenDisappear;//记录当页面消失时是否需要隐藏系统导航
-    BOOL _isHasTabBarController;//是否含有tabbar
-    BOOL _isHasNavitationController;//是否含有导航
-}
 
 @property (strong,nonatomic)NSMutableArray *dataArray;
 @property (strong,nonatomic)NSMutableArray *selectedArray;
@@ -29,16 +24,7 @@
 #pragma mark - viewController life cicle
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    
-    if (_isHasNavitationController == YES) {
-        if (self.navigationController.navigationBarHidden == YES) {
-            _isHiddenNavigationBarWhenDisappear = NO;
-        } else {
-            self.navigationController.navigationBarHidden = YES;
-            _isHiddenNavigationBarWhenDisappear = YES;
-        }
-    }
-    
+
     
     //当进入购物车的时候判断是否有已选择的商品,有就清空
     //主要是提交订单后再返回到购物车,如果不清空,还会显示
@@ -56,15 +42,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.title = @"购物车";
     self.view.backgroundColor = [UIColor whiteColor];
-    _isHasTabBarController = self.tabBarController?YES:NO;
-    _isHasNavitationController = self.navigationController?YES:NO;
+
     
 #warning 模仿请求数据,延迟1s加载数据
     [self performSelector:@selector(loadData) withObject:nil afterDelay:1];
     
     
-    [self setupCustomNavigationBar];
+//    [self setupCustomNavigationBar];
     if (self.dataArray.count > 0) {
         
         [self setupCartView];
@@ -73,11 +59,6 @@
     }
 }
 
-- (void)viewWillDisappear:(BOOL)animated {
-    if (_isHiddenNavigationBarWhenDisappear == YES) {
-        self.navigationController.navigationBarHidden = NO;
-    }
-}
 #pragma mark - 初始化数组
 - (NSMutableArray *)dataArray {
     if (!_dataArray) {
@@ -107,7 +88,7 @@
         model.number = 1;
         model.image = [UIImage imageNamed:@"cart_shop"];
         model.dateStr = @"2016.02.18";
-        model.sizeStr = @"18*20cm";
+        model.sizeStr = @"200ml";
         
         [self.dataArray addObject:model];
     }
@@ -134,47 +115,13 @@
 }
 
 #pragma mark - 布局页面视图
-#pragma mark -- 自定义导航
-- (void)setupCustomNavigationBar {
-    UIView *backgroundView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, KScreenWidth, 64)];
-    backgroundView.backgroundColor = [UIColor colorWithRed:236/255.0 green:236/255.0 blue:236/255.0 alpha:1];
-    [self.view addSubview:backgroundView];
-    
-    UIView *lineView = [[UIView alloc]initWithFrame:CGRectMake(0, 64 - 0.5, KScreenWidth, 0.5)];
-    lineView.backgroundColor = [UIColor lightGrayColor];
-    [self.view addSubview:lineView];
-    
-    UILabel *titleLabel = [[UILabel alloc]init];
-    titleLabel.text = @"购物车";
-    titleLabel.font = [UIFont systemFontOfSize:20];
-    
-    titleLabel.center = CGPointMake(self.view.center.x, (64 - 20)/2.0 + 20);
-    CGSize size = [titleLabel sizeThatFits:CGSizeMake(300, 44)];
-    titleLabel.bounds = CGRectMake(0, 0, size.width + 20, size.height);
-    
-    titleLabel.textAlignment = NSTextAlignmentCenter;
-    [self.view addSubview:titleLabel];
-    
-    UIButton *backButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    backButton.frame = CGRectMake(10, 20, 40, 44);
-    [backButton setImage:[UIImage imageNamed:@"back_button"] forState:UIControlStateNormal];
-    [backButton addTarget:self action:@selector(backButtonClick:) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:backButton];
-}
 #pragma mark -- 自定义底部视图
 - (void)setupCustomBottomView {
     
-    UIView *backgroundView = [[UIView alloc]init];
+    UIView *backgroundView = [[UIView alloc]initWithFrame:CGRectMake(0, KScreenHeight -  49, KScreenWidth, 49)];
     backgroundView.backgroundColor = [UIColor colorWithRed:245/255.0 green:245/255.0 blue:245/255.0 alpha:1];
     backgroundView.tag = 100 + 1;
     [self.view addSubview:backgroundView];
-    
-    //当有tabBarController时,在tabBar的上面
-    if (_isHasTabBarController == YES) {
-        backgroundView.frame = CGRectMake(0, KScreenHeight -  2*49, KScreenWidth, 49);
-    } else {
-        backgroundView.frame = CGRectMake(0, KScreenHeight -  49, KScreenWidth, 49);
-    }
     
     UIView *lineView = [[UIView alloc]init];
     lineView.frame = CGRectMake(0, 0, KScreenWidth, 1);
@@ -209,7 +156,7 @@
     
     label.attributedText = [self SetString:@"¥0.00"];
     CGFloat maxWidth = KScreenWidth - selectAll.bounds.size.width - btn.bounds.size.width - 30;
-    //    CGSize size = [label sizeThatFits:CGSizeMake(maxWidth, LZTabBarHeight)];
+ 
     label.frame = CGRectMake(selectAll.bounds.size.width + 20, 0, maxWidth - 10, 49);
     self.totlePriceLabel = label;
 }
@@ -268,7 +215,7 @@
     //创建底部视图
     [self setupCustomBottomView];
     
-    UITableView *table = [[UITableView alloc]initWithFrame:CGRectZero style:UITableViewStylePlain];
+    UITableView *table = [[UITableView alloc]initWithFrame:CGRectMake(0, 64, KScreenWidth, KScreenHeight - 64 - 49) style:UITableViewStylePlain];
     
     table.delegate = self;
     table.dataSource = self;
@@ -279,12 +226,7 @@
     [table registerClass:[CartTableViewCell class] forCellReuseIdentifier:@"CartReusableCell"];
     [self.view addSubview:table];
     self.myTableView = table;
-    
-    if (_isHasTabBarController) {
-        table.frame = CGRectMake(0, 64, KScreenWidth, KScreenHeight - 64 - 2*49);
-    } else {
-        table.frame = CGRectMake(0, 64, KScreenWidth, KScreenHeight - 64 - 49);
-    }
+   
 }
 #pragma mark --- UITableViewDataSource & UITableViewDelegate
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -399,13 +341,6 @@
     [self.myTableView reloadData];
 }
 #pragma mark -- 页面按钮点击事件
-- (void)backButtonClick:(UIButton*)button {
-    if (_isHasNavitationController == NO) {
-        [self dismissViewControllerAnimated:YES completion:nil];
-    } else {
-        [self.navigationController popViewControllerAnimated:YES];
-    }
-}
 //全选按钮点击事件
 - (void)selectAllBtnClick:(UIButton*)button {
     button.selected = !button.selected;
