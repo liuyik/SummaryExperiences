@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '8B4DB4B4541DE76CFA7E84F986746AD8'
-               BlueprintName = 'Pods-SummaryExperiences'
+               BlueprintIdentifier = 'BF50619346A0477EB2916AB87C43E0AF'
+               BlueprintName = 'LYPickerChiceView'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-SummaryExperiences.a'>
+               BuildableName = 'libLYPickerChiceView.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

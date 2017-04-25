@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>LYPickerChiceView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MBProgressHUD.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -52,12 +57,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>04CF549EBEEE7BC87AEAE35397184D94</key>
+		<key>04AFC845E10D280D611E3856C50B0A2A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>461CD82694C6DEED6AEFBB3FB0EFC2B3</key>
+		<key>04CF549EBEEE7BC87AEAE35397184D94</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -67,7 +72,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9D590DBD3DDC5646E228307B34E8323A</key>
+		<key>8B4DB4B4541DE76CFA7E84F986746AD8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>971A353E00777D94EF30067DBB6F0F52</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -82,17 +92,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9F8788104C894A4D95295AD0E37648F4</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>A316B54C67E947D23CECD230FA5BFAEF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>BB2AB6C3F17512F8687B187A905D5DB1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BF50619346A0477EB2916AB87C43E0AF</key>
 		<dict>
 			<key>primary</key>
 			<true/>

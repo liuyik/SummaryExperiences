@@ -34,7 +34,46 @@
     
 }
 ```
+## 选择器
 
+自己封装UIPickerView，根据枚举类型来进行选择，可以pod集成。
+### 效果图
+![](https://github.com/liuyik/SummaryExperiences/blob/master/效果图/选择器.gif
+)
+### 用法
+
+下载后拖入工程，或者用pod 安装
+pod 'LYPickerChiceView', '~> 0.0.3' 
+[下载地址：https://github.com/liuyik/LYPickerChiceView.git](https://github.com/liuyik/LYPickerChiceView.git)
+
+```
+//数据类型枚举
+typedef NS_ENUM(NSInteger, DATATYPE) {
+    LYPickerDataCustom,//自定义
+    LYPickerDataGender,//性别
+    LYPickerDataHeight,//身高
+    LYPickerDataWeight,//体重
+    LYPickerDataSalary,//工资
+    LYPickerDataDete,//时间
+    LYPickerDataArea//地点
+};
+```
+```
+//创建
+_picker = [[LYPickerChiceView alloc] initWithFrame:self.view.bounds];
+            _picker.dataType = LYPickerDataArea;
+            _picker.delegate = self;
+            [self.view addSubview:_picker];
+//协议
+- (void)PickerSelectorIndixInfo:(NSDictionary *)info {
+    /*
+     * 判断类型；
+     * 时间类型字典的key为year、month、day；
+     * 地点类型字典key为province、city、area；
+     * 其他，字典key为：info；
+     */    
+ }
+```
 ## 树状图
 
 使用第三方[RATreeView](https://github.com/Augustyniak/RATreeView)实现折叠效果
