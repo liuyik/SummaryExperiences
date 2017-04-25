@@ -4,6 +4,7 @@
 
 ## 目录
 * [日历](#日历)
+* [选择器](#选择器)
 * [树状图](#树状图)
 * [瀑布流](#瀑布流)
 * [购物车](#购物车)
@@ -38,7 +39,8 @@
 
 自己封装UIPickerView，根据枚举类型来进行选择，可以pod集成。
 ### 效果图
-![](https://github.com/liuyik/SummaryExperiences/blob/master/效果图/选择器.gif
+![](https://github.com/liuyik/SummaryExperiences/blob/master/效果图/选择器1.png
+)![](https://github.com/liuyik/SummaryExperiences/blob/master/效果图/选择器2.png
 )
 ### 用法
 

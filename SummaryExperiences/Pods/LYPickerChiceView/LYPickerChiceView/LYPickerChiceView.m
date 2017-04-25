@@ -109,15 +109,16 @@
     self.cancelBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     [self.bgView addSubview:self.cancelBtn];
   
-    self.cancelBtn.frame = CGRectMake(15, 0, 30, 44);
+    self.cancelBtn.frame = CGRectMake(15, 0, 40, 44);
     self.cancelBtn.titleLabel.font = [UIFont systemFontOfSize:15];
     [self.cancelBtn setTitle:@"取消" forState:UIControlStateNormal];
     [self.cancelBtn addTarget:self action:@selector(cancelBtnClick) forControlEvents:UIControlEventTouchUpInside];
     [self.cancelBtn setTitleColor:RGBA(0, 122, 255, 1) forState:UIControlStateNormal];
+    
     //完成
     self.completesBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     [self.bgView addSubview:self.completesBtn];
-    self.completesBtn.frame = CGRectMake(kScreenWidth-45, 0, 30, 44);
+    self.completesBtn.frame = CGRectMake(kScreenWidth-45, 0, 40, 44);
     self.completesBtn.titleLabel.font = [UIFont systemFontOfSize:15];
     [self.completesBtn setTitle:@"完成" forState:UIControlStateNormal];
     [self.completesBtn addTarget:self action:@selector(completeBtnClick) forControlEvents:UIControlEventTouchUpInside];
