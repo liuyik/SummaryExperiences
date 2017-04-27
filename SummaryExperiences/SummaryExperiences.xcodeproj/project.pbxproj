@@ -14,6 +14,20 @@
 		D60C33161EA608A500F6683A /* LYCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D60C33141EA608A500F6683A /* LYCalendarCell.m */; };
 		D60C33171EA608A500F6683A /* LYCalendarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D60C33151EA608A500F6683A /* LYCalendarCell.xib */; };
 		D6210CBA1EAF3F9100B0FB8B /* ChiceController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6210CB91EAF3F9100B0FB8B /* ChiceController.m */; };
+		D62A361F1EB0A1C100DEB3E6 /* SegmentController.m in Sources */ = {isa = PBXBuildFile; fileRef = D62A361E1EB0A1C100DEB3E6 /* SegmentController.m */; };
+		D62A36371EB0A33E00DEB3E6 /* CollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D62A36211EB0A33E00DEB3E6 /* CollectionReusableView.m */; };
+		D62A36381EB0A33E00DEB3E6 /* LeftTabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = D62A36231EB0A33E00DEB3E6 /* LeftTabelView.m */; };
+		D62A36391EB0A33E00DEB3E6 /* liwushuo.json in Resources */ = {isa = PBXBuildFile; fileRef = D62A36241EB0A33E00DEB3E6 /* liwushuo.json */; };
+		D62A363A1EB0A33E00DEB3E6 /* LJCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D62A36261EB0A33E00DEB3E6 /* LJCollectionViewFlowLayout.m */; };
+		D62A363B1EB0A33E00DEB3E6 /* meituan.json in Resources */ = {isa = PBXBuildFile; fileRef = D62A36271EB0A33E00DEB3E6 /* meituan.json */; };
+		D62A363C1EB0A33E00DEB3E6 /* CategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D62A362A1EB0A33E00DEB3E6 /* CategoryModel.m */; };
+		D62A363D1EB0A33E00DEB3E6 /* CollectionCategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D62A362C1EB0A33E00DEB3E6 /* CollectionCategoryModel.m */; };
+		D62A363E1EB0A33E00DEB3E6 /* RightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D62A362E1EB0A33E00DEB3E6 /* RightCell.m */; };
+		D62A363F1EB0A33E00DEB3E6 /* RightCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D62A362F1EB0A33E00DEB3E6 /* RightCell.xib */; };
+		D62A36401EB0A33E00DEB3E6 /* RightCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D62A36311EB0A33E00DEB3E6 /* RightCollectionCell.m */; };
+		D62A36411EB0A33E00DEB3E6 /* RightCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D62A36321EB0A33E00DEB3E6 /* RightCollectionCell.xib */; };
+		D62A36421EB0A33E00DEB3E6 /* RightCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = D62A36341EB0A33E00DEB3E6 /* RightCollectionView.m */; };
+		D62A36431EB0A33E00DEB3E6 /* RightTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D62A36361EB0A33E00DEB3E6 /* RightTableView.m */; };
 		D66D05AE1EA9A49B0020A27A /* CartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D66D05A01EA9A49B0020A27A /* CartModel.m */; };
 		D66D05AF1EA9A49B0020A27A /* CartTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D66D05A21EA9A49B0020A27A /* CartTableViewCell.m */; };
 		D66D05B01EA9A49B0020A27A /* CartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D66D05A41EA9A49B0020A27A /* CartViewController.m */; };
@@ -63,6 +77,30 @@
 		D60C33151EA608A500F6683A /* LYCalendarCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYCalendarCell.xib; sourceTree = "<group>"; };
 		D6210CB81EAF3F9100B0FB8B /* ChiceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChiceController.h; sourceTree = "<group>"; };
 		D6210CB91EAF3F9100B0FB8B /* ChiceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChiceController.m; sourceTree = "<group>"; };
+		D62A361D1EB0A1C100DEB3E6 /* SegmentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentController.h; sourceTree = "<group>"; };
+		D62A361E1EB0A1C100DEB3E6 /* SegmentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentController.m; sourceTree = "<group>"; };
+		D62A36201EB0A33E00DEB3E6 /* CollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionReusableView.h; sourceTree = "<group>"; };
+		D62A36211EB0A33E00DEB3E6 /* CollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionReusableView.m; sourceTree = "<group>"; };
+		D62A36221EB0A33E00DEB3E6 /* LeftTabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftTabelView.h; sourceTree = "<group>"; };
+		D62A36231EB0A33E00DEB3E6 /* LeftTabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftTabelView.m; sourceTree = "<group>"; };
+		D62A36241EB0A33E00DEB3E6 /* liwushuo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = liwushuo.json; sourceTree = "<group>"; };
+		D62A36251EB0A33E00DEB3E6 /* LJCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		D62A36261EB0A33E00DEB3E6 /* LJCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		D62A36271EB0A33E00DEB3E6 /* meituan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = meituan.json; sourceTree = "<group>"; };
+		D62A36291EB0A33E00DEB3E6 /* CategoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryModel.h; sourceTree = "<group>"; };
+		D62A362A1EB0A33E00DEB3E6 /* CategoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryModel.m; sourceTree = "<group>"; };
+		D62A362B1EB0A33E00DEB3E6 /* CollectionCategoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionCategoryModel.h; sourceTree = "<group>"; };
+		D62A362C1EB0A33E00DEB3E6 /* CollectionCategoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionCategoryModel.m; sourceTree = "<group>"; };
+		D62A362D1EB0A33E00DEB3E6 /* RightCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightCell.h; sourceTree = "<group>"; };
+		D62A362E1EB0A33E00DEB3E6 /* RightCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightCell.m; sourceTree = "<group>"; };
+		D62A362F1EB0A33E00DEB3E6 /* RightCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RightCell.xib; sourceTree = "<group>"; };
+		D62A36301EB0A33E00DEB3E6 /* RightCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightCollectionCell.h; sourceTree = "<group>"; };
+		D62A36311EB0A33E00DEB3E6 /* RightCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightCollectionCell.m; sourceTree = "<group>"; };
+		D62A36321EB0A33E00DEB3E6 /* RightCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RightCollectionCell.xib; sourceTree = "<group>"; };
+		D62A36331EB0A33E00DEB3E6 /* RightCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightCollectionView.h; sourceTree = "<group>"; };
+		D62A36341EB0A33E00DEB3E6 /* RightCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightCollectionView.m; sourceTree = "<group>"; };
+		D62A36351EB0A33E00DEB3E6 /* RightTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightTableView.h; sourceTree = "<group>"; };
+		D62A36361EB0A33E00DEB3E6 /* RightTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightTableView.m; sourceTree = "<group>"; };
 		D66D059F1EA9A49B0020A27A /* CartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartModel.h; sourceTree = "<group>"; };
 		D66D05A01EA9A49B0020A27A /* CartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartModel.m; sourceTree = "<group>"; };
 		D66D05A11EA9A49B0020A27A /* CartTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartTableViewCell.h; sourceTree = "<group>"; };
@@ -167,6 +205,45 @@
 			path = Chice;
 			sourceTree = "<group>";
 		};
+		D62A361C1EB0A1A700DEB3E6 /* Segment */ = {
+			isa = PBXGroup;
+			children = (
+				D62A36201EB0A33E00DEB3E6 /* CollectionReusableView.h */,
+				D62A36211EB0A33E00DEB3E6 /* CollectionReusableView.m */,
+				D62A36221EB0A33E00DEB3E6 /* LeftTabelView.h */,
+				D62A36231EB0A33E00DEB3E6 /* LeftTabelView.m */,
+				D62A36241EB0A33E00DEB3E6 /* liwushuo.json */,
+				D62A36251EB0A33E00DEB3E6 /* LJCollectionViewFlowLayout.h */,
+				D62A36261EB0A33E00DEB3E6 /* LJCollectionViewFlowLayout.m */,
+				D62A36271EB0A33E00DEB3E6 /* meituan.json */,
+				D62A36281EB0A33E00DEB3E6 /* Model */,
+				D62A362D1EB0A33E00DEB3E6 /* RightCell.h */,
+				D62A362E1EB0A33E00DEB3E6 /* RightCell.m */,
+				D62A362F1EB0A33E00DEB3E6 /* RightCell.xib */,
+				D62A36301EB0A33E00DEB3E6 /* RightCollectionCell.h */,
+				D62A36311EB0A33E00DEB3E6 /* RightCollectionCell.m */,
+				D62A36321EB0A33E00DEB3E6 /* RightCollectionCell.xib */,
+				D62A36331EB0A33E00DEB3E6 /* RightCollectionView.h */,
+				D62A36341EB0A33E00DEB3E6 /* RightCollectionView.m */,
+				D62A36351EB0A33E00DEB3E6 /* RightTableView.h */,
+				D62A36361EB0A33E00DEB3E6 /* RightTableView.m */,
+				D62A361D1EB0A1C100DEB3E6 /* SegmentController.h */,
+				D62A361E1EB0A1C100DEB3E6 /* SegmentController.m */,
+			);
+			path = Segment;
+			sourceTree = "<group>";
+		};
+		D62A36281EB0A33E00DEB3E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D62A36291EB0A33E00DEB3E6 /* CategoryModel.h */,
+				D62A362A1EB0A33E00DEB3E6 /* CategoryModel.m */,
+				D62A362B1EB0A33E00DEB3E6 /* CollectionCategoryModel.h */,
+				D62A362C1EB0A33E00DEB3E6 /* CollectionCategoryModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		D66D059E1EA9A49B0020A27A /* Cart */ = {
 			isa = PBXGroup;
 			children = (
@@ -256,6 +333,7 @@
 		D6A8AABF1E83C4F300FDB279 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D62A361C1EB0A1A700DEB3E6 /* Segment */,
 				D6210CB71EAF3F7700B0FB8B /* Chice */,
 				D601C2CE1EADD1CF00AA465C /* WaterFall */,
 				D699D0581EA9FDEB00A4563A /* Tree */,
@@ -397,10 +475,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D66D05B61EA9A49B0020A27A /* cart_default_bg.png in Resources */,
+				D62A36391EB0A33E00DEB3E6 /* liwushuo.json in Resources */,
+				D62A36411EB0A33E00DEB3E6 /* RightCollectionCell.xib in Resources */,
 				D66D05BA1EA9A6700020A27A /* cart_shop.png in Resources */,
 				D699D0641EA9FDEB00A4563A /* img_close.png in Resources */,
 				D60C33171EA608A500F6683A /* LYCalendarCell.xib in Resources */,
 				D6F9553F1E83A56E00F7125E /* LaunchScreen.storyboard in Resources */,
+				D62A363F1EB0A33E00DEB3E6 /* RightCell.xib in Resources */,
 				D6F9553C1E83A56E00F7125E /* Assets.xcassets in Resources */,
 				D66D05B41EA9A49B0020A27A /* cart_cutBtn_highlight@2x.png in Resources */,
 				D66D05B11EA9A49B0020A27A /* back_button@2x.png in Resources */,
@@ -411,6 +492,7 @@
 				D6F417901EA84831004DD115 /* bt_next@2x.png in Resources */,
 				D699D0681EA9FDEB00A4563A /* treeList.plist in Resources */,
 				D66D05B71EA9A49B0020A27A /* cart_selected_btn@2x.png in Resources */,
+				D62A363B1EB0A33E00DEB3E6 /* meituan.json in Resources */,
 				D66D05B21EA9A49B0020A27A /* cart_addBtn_highlight@2x.png in Resources */,
 				D66D05B81EA9A49B0020A27A /* cart_unSelect_btn@2x.png in Resources */,
 				D6F417911EA84831004DD115 /* bt_previous@2x.png in Resources */,
@@ -433,7 +515,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		A768520FDAAA091EB64E413F /* [CP] Embed Pods Frameworks */ = {
@@ -475,23 +557,33 @@
 			files = (
 				D60C33161EA608A500F6683A /* LYCalendarCell.m in Sources */,
 				D6A8AABE1E83C42500FDB279 /* UIViewExt.m in Sources */,
+				D62A36431EB0A33E00DEB3E6 /* RightTableView.m in Sources */,
 				D66D05B01EA9A49B0020A27A /* CartViewController.m in Sources */,
+				D62A36371EB0A33E00DEB3E6 /* CollectionReusableView.m in Sources */,
+				D62A36381EB0A33E00DEB3E6 /* LeftTabelView.m in Sources */,
 				D6F955371E83A56E00F7125E /* ViewController.m in Sources */,
 				D6A8AAB71E83C17200FDB279 /* UIColor+Hex.m in Sources */,
 				D6A8AAAF1E83BD3700FDB279 /* UIView+ViewController.m in Sources */,
 				D6A8AAC71E83CAAD00FDB279 /* LYCalendarPicker.m in Sources */,
 				D699D0691EA9FDEB00A4563A /* TreeModel.m in Sources */,
+				D62A363A1EB0A33E00DEB3E6 /* LJCollectionViewFlowLayout.m in Sources */,
 				D6210CBA1EAF3F9100B0FB8B /* ChiceController.m in Sources */,
 				D6F955341E83A56E00F7125E /* AppDelegate.m in Sources */,
 				D66D05AF1EA9A49B0020A27A /* CartTableViewCell.m in Sources */,
+				D62A36401EB0A33E00DEB3E6 /* RightCollectionCell.m in Sources */,
+				D62A361F1EB0A1C100DEB3E6 /* SegmentController.m in Sources */,
+				D62A363D1EB0A33E00DEB3E6 /* CollectionCategoryModel.m in Sources */,
 				D601C2D11EADD1FB00AA465C /* LYWaterFlowLayout.m in Sources */,
 				D66D05AE1EA9A49B0020A27A /* CartModel.m in Sources */,
+				D62A363E1EB0A33E00DEB3E6 /* RightCell.m in Sources */,
 				D601C2D41EADD24D00AA465C /* LYLeftWaterAlignedLayout.m in Sources */,
 				D6A8AAC41E83C60600FDB279 /* CalendarController.m in Sources */,
 				D6A8AABA1E83C30C00FDB279 /* UIImageView+CircleImage.m in Sources */,
 				D6F955311E83A56E00F7125E /* main.m in Sources */,
 				D699D06A1EA9FDEB00A4563A /* TreeViewController.m in Sources */,
 				D601C2D71EADD92300AA465C /* WaterFallController.m in Sources */,
+				D62A36421EB0A33E00DEB3E6 /* RightCollectionView.m in Sources */,
+				D62A363C1EB0A33E00DEB3E6 /* CategoryModel.m in Sources */,
 				D699D0661EA9FDEB00A4563A /* TreeCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

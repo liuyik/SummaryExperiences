@@ -30,7 +30,7 @@
 /** 背景 */
 @property (nonatomic,strong)UIView         *bgView;
 /** 标题 */
-@property (nonatomic,strong)UILabel  *titleLabel;
+@property (nonatomic,strong)UILabel        *titleLabel;
 /** 取消按钮 */
 @property (nonatomic,strong)UIButton       *cancelBtn;
 /** 完成按钮 */
@@ -72,13 +72,6 @@
 
 @implementation LYPickerChiceView
 
-- (instancetype)init {
-    self = [super init];
-    if (self) {
-        [self initViews];
-    }
-    return self;
-}
 - (instancetype)initWithCoder:(NSCoder *)aDecoder {
     self = [super initWithCoder:aDecoder];
     if (self) {
@@ -109,23 +102,22 @@
     self.cancelBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     [self.bgView addSubview:self.cancelBtn];
   
-    self.cancelBtn.frame = CGRectMake(15, 0, 40, 44);
+    self.cancelBtn.frame = CGRectMake(10, 0, 45, 44);
     self.cancelBtn.titleLabel.font = [UIFont systemFontOfSize:15];
     [self.cancelBtn setTitle:@"取消" forState:UIControlStateNormal];
     [self.cancelBtn addTarget:self action:@selector(cancelBtnClick) forControlEvents:UIControlEventTouchUpInside];
     [self.cancelBtn setTitleColor:RGBA(0, 122, 255, 1) forState:UIControlStateNormal];
-    
     //完成
     self.completesBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     [self.bgView addSubview:self.completesBtn];
-    self.completesBtn.frame = CGRectMake(kScreenWidth-45, 0, 40, 44);
+    self.completesBtn.frame = CGRectMake(kScreenWidth-55, 0, 45, 44);
     self.completesBtn.titleLabel.font = [UIFont systemFontOfSize:15];
     [self.completesBtn setTitle:@"完成" forState:UIControlStateNormal];
     [self.completesBtn addTarget:self action:@selector(completeBtnClick) forControlEvents:UIControlEventTouchUpInside];
     [self.completesBtn setTitleColor:RGBA(0, 122, 255, 1) forState:UIControlStateNormal];
     
     //选择titi
-    self.titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(CGRectGetMaxX(self.cancelBtn.frame)+5, 0, kScreenWidth-100, 44)];
+    self.titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(CGRectGetMaxX(self.cancelBtn.frame)+5, 0, kScreenWidth-110, 44)];
     [self.bgView addSubview:self.titleLabel];
 
     self.titleLabel.font = [UIFont systemFontOfSize:15];
@@ -139,10 +131,12 @@
     
     //选择器
     self.pickerView = [[UIPickerView alloc] initWithFrame:CGRectMake(0, CGRectGetMaxY(line.frame), kScreenWidth, CGRectGetHeight(self.bgView.frame)-CGRectGetMaxY(self.cancelBtn.frame))];
-    [self.bgView addSubview:self.pickerView];
     
     self.pickerView.delegate = self;
     self.pickerView.dataSource = self;
+    
+    [self.bgView addSubview:self.pickerView];
+    
 
 }
 #pragma mark - 数据类型

@@ -17,7 +17,7 @@ typedef NS_ENUM(NSInteger, DATATYPE) {
 };
 ## 用法
 下载后拖入工程，或者用pod 安装
-pod 'LYPickerChiceView', '~> 0.0.1' 用pod没有area.plist文件需要下载才有地点信息
+pod 'LYPickerChiceView', '~> 0.0.5' 
 [下载地址：https://github.com/liuyik/LYPickerChiceView.git](https://github.com/liuyik/LYPickerChiceView.git)
 
 ```
@@ -36,7 +36,12 @@ _picker = [[LYPickerChiceView alloc] initWithFrame:self.view.bounds];
      */    
  }
 ```
-欢迎大家指正。
+## more
+if you find a bug, please create a issue.
+Welcome to pull requests.
+More infomation please view code.
+如果你发现了bug，请提一个issue。
+欢迎给我提pull requests。
 
 
 

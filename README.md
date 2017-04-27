@@ -45,7 +45,7 @@
 ### 用法
 
 下载后拖入工程，或者用pod 安装
-pod 'LYPickerChiceView', '~> 0.0.3' 
+pod 'LYPickerChiceView' 
 [下载地址：https://github.com/liuyik/LYPickerChiceView.git](https://github.com/liuyik/LYPickerChiceView.git)
 
 ```
