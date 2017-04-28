@@ -65,6 +65,7 @@
     
     return 5;
 }
+
 //边缘的间隙
 - (UIEdgeInsets)edgeInsetsWaterAligned:(LYLeftWaterAlignedLayout *)waterAligned {
     

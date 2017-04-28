@@ -7,6 +7,7 @@
 * [选择器](#选择器)
 * [树状图](#树状图)
 * [瀑布流](#瀑布流)
+* [分类](#分类)
 * [购物车](#购物车)
 
 ## 日历
@@ -364,6 +365,13 @@ RATreeView *ratreeView = [[RATreeView alloc] initWithFrame:[UIScreen mainScreen]
 }
 
 ```
+## 分类
+
+### 效果图
+![](https://github.com/liuyik/SummaryExperiences/blob/master/效果图/分类1.png
+)![](https://github.com/liuyik/SummaryExperiences/blob/master/效果图/分类2.png
+)
+
 ## 购物车
 
 ### 效果图

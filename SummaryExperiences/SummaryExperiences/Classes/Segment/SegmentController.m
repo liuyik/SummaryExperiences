@@ -25,8 +25,8 @@
     
     self.title = @"分类";
     
-//    [self createTabelView];
-        [self createCollectionView];
+    [self createTabelView];
+//        [self createCollectionView];
     
 }
 
