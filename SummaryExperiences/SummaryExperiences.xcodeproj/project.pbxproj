@@ -54,6 +54,9 @@
 		D6A8AABE1E83C42500FDB279 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A8AABD1E83C42500FDB279 /* UIViewExt.m */; };
 		D6A8AAC41E83C60600FDB279 /* CalendarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A8AAC31E83C60600FDB279 /* CalendarController.m */; };
 		D6A8AAC71E83CAAD00FDB279 /* LYCalendarPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A8AAC61E83CAAD00FDB279 /* LYCalendarPicker.m */; };
+		D6BE155E1F2980F500861E68 /* BaiduMapController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6BE155D1F2980F500861E68 /* BaiduMapController.m */; };
+		D6BE15601F29949100861E68 /* sport_path.json in Resources */ = {isa = PBXBuildFile; fileRef = D6BE155F1F29949100861E68 /* sport_path.json */; };
+		D6BE15621F2996F400861E68 /* sportarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = D6BE15611F2996F400861E68 /* sportarrow.png */; };
 		D6F417901EA84831004DD115 /* bt_next@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6F4178E1EA84831004DD115 /* bt_next@2x.png */; };
 		D6F417911EA84831004DD115 /* bt_previous@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6F4178F1EA84831004DD115 /* bt_previous@2x.png */; };
 		D6F955311E83A56E00F7125E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F955301E83A56E00F7125E /* main.m */; };
@@ -142,6 +145,10 @@
 		D6A8AAC31E83C60600FDB279 /* CalendarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarController.m; sourceTree = "<group>"; };
 		D6A8AAC51E83CAAD00FDB279 /* LYCalendarPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCalendarPicker.h; sourceTree = "<group>"; };
 		D6A8AAC61E83CAAD00FDB279 /* LYCalendarPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCalendarPicker.m; sourceTree = "<group>"; };
+		D6BE155C1F2980F500861E68 /* BaiduMapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMapController.h; sourceTree = "<group>"; };
+		D6BE155D1F2980F500861E68 /* BaiduMapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaiduMapController.m; sourceTree = "<group>"; };
+		D6BE155F1F29949100861E68 /* sport_path.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sport_path.json; sourceTree = "<group>"; };
+		D6BE15611F2996F400861E68 /* sportarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sportarrow.png; sourceTree = "<group>"; };
 		D6F4178E1EA84831004DD115 /* bt_next@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bt_next@2x.png"; sourceTree = "<group>"; };
 		D6F4178F1EA84831004DD115 /* bt_previous@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bt_previous@2x.png"; sourceTree = "<group>"; };
 		D6F9552C1E83A56E00F7125E /* SummaryExperiences.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SummaryExperiences.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -344,6 +351,7 @@
 				D699D0581EA9FDEB00A4563A /* Tree */,
 				D66D059E1EA9A49B0020A27A /* Cart */,
 				D6A8AAC01E83C5EB00FDB279 /* Calendar */,
+				D6BE155B1F2980CD00861E68 /* BaiduMap */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -370,6 +378,17 @@
 				D60C33151EA608A500F6683A /* LYCalendarCell.xib */,
 			);
 			path = LYCalendar;
+			sourceTree = "<group>";
+		};
+		D6BE155B1F2980CD00861E68 /* BaiduMap */ = {
+			isa = PBXGroup;
+			children = (
+				D6BE15611F2996F400861E68 /* sportarrow.png */,
+				D6BE155F1F29949100861E68 /* sport_path.json */,
+				D6BE155C1F2980F500861E68 /* BaiduMapController.h */,
+				D6BE155D1F2980F500861E68 /* BaiduMapController.m */,
+			);
+			path = BaiduMap;
 			sourceTree = "<group>";
 		};
 		D6F955231E83A56D00F7125E = {
@@ -481,6 +500,7 @@
 			files = (
 				D66D05B61EA9A49B0020A27A /* cart_default_bg.png in Resources */,
 				D62A36391EB0A33E00DEB3E6 /* liwushuo.json in Resources */,
+				D6BE15621F2996F400861E68 /* sportarrow.png in Resources */,
 				D62A36411EB0A33E00DEB3E6 /* RightCollectionCell.xib in Resources */,
 				D66D05BA1EA9A6700020A27A /* cart_shop.png in Resources */,
 				D699D0641EA9FDEB00A4563A /* img_close.png in Resources */,
@@ -490,6 +510,7 @@
 				D6F9553C1E83A56E00F7125E /* Assets.xcassets in Resources */,
 				D66D05B41EA9A49B0020A27A /* cart_cutBtn_highlight@2x.png in Resources */,
 				D66D05B11EA9A49B0020A27A /* back_button@2x.png in Resources */,
+				D6BE15601F29949100861E68 /* sport_path.json in Resources */,
 				D66D05B51EA9A49B0020A27A /* cart_cutBtn_nomal@2x.png in Resources */,
 				D66D05B31EA9A49B0020A27A /* cart_addBtn_nomal@2x.png in Resources */,
 				D699D0651EA9FDEB00A4563A /* img_open.png in Resources */,
@@ -582,6 +603,7 @@
 				D66D05AE1EA9A49B0020A27A /* CartModel.m in Sources */,
 				D62A363E1EB0A33E00DEB3E6 /* RightCell.m in Sources */,
 				D65B86801EB2F27C00578E19 /* NSString+Extension.m in Sources */,
+				D6BE155E1F2980F500861E68 /* BaiduMapController.m in Sources */,
 				D601C2D41EADD24D00AA465C /* LYLeftWaterAlignedLayout.m in Sources */,
 				D6A8AAC41E83C60600FDB279 /* CalendarController.m in Sources */,
 				D6A8AABA1E83C30C00FDB279 /* UIImageView+CircleImage.m in Sources */,

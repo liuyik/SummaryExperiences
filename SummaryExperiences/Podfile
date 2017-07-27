@@ -14,6 +14,6 @@ pod 'MJRefresh', '~>3.1.12'
 pod 'MJExtension', '~> 3.0.13'
 pod 'SDWebImage', '~> 3.8.1'
 pod 'LYPickerChiceView', '~> 0.0.6'
-
+pod 'BaiduMapKit'
 
 end
