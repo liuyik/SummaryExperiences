@@ -26,6 +26,8 @@
 
 #import "JSONKit.h"
 
+#import "MeiTuanMapController.h"
+
 // 运动结点信息类
 @interface BMKSportNode : NSObject
 
@@ -102,8 +104,20 @@
     
     //初始化轨迹点
     [self initSportNodes];
+    
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(20, 80, 250, 30);
+    button.backgroundColor = [UIColor whiteColor];
+    [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [button setTitle:@"跳到仿美团地址检索界面" forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(buttonAction:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
 }
 
+- (void)buttonAction:(UIButton *)btn {
+    MeiTuanMapController *mt = [[MeiTuanMapController alloc]init];
+    [self.navigationController pushViewController:mt animated:YES];
+}
 -(void)viewWillAppear:(BOOL)animated
 {
     [_mapView viewWillAppear];

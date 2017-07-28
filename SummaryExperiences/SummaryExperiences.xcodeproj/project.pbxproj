@@ -13,6 +13,17 @@
 		D601C2D71EADD92300AA465C /* WaterFallController.m in Sources */ = {isa = PBXBuildFile; fileRef = D601C2D61EADD92300AA465C /* WaterFallController.m */; };
 		D60C33161EA608A500F6683A /* LYCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D60C33141EA608A500F6683A /* LYCalendarCell.m */; };
 		D60C33171EA608A500F6683A /* LYCalendarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D60C33151EA608A500F6683A /* LYCalendarCell.xib */; };
+		D614F7B51F2ACD05009B6AE2 /* MeiTuanMapController.m in Sources */ = {isa = PBXBuildFile; fileRef = D614F7B41F2ACD05009B6AE2 /* MeiTuanMapController.m */; };
+		D614F7B81F2B09C6009B6AE2 /* RoiResultListView.m in Sources */ = {isa = PBXBuildFile; fileRef = D614F7B71F2B09C6009B6AE2 /* RoiResultListView.m */; };
+		D614F7BC1F2B1091009B6AE2 /* PoiResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D614F7BA1F2B1091009B6AE2 /* PoiResultCell.m */; };
+		D614F7BD1F2B1091009B6AE2 /* PoiResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D614F7BB1F2B1091009B6AE2 /* PoiResultCell.xib */; };
+		D614F7C01F2B10A0009B6AE2 /* PoiModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D614F7BF1F2B10A0009B6AE2 /* PoiModel.m */; };
+		D614F7C71F2B10B6009B6AE2 /* dingwei.png in Resources */ = {isa = PBXBuildFile; fileRef = D614F7C11F2B10B6009B6AE2 /* dingwei.png */; };
+		D614F7C81F2B10B6009B6AE2 /* poi_1.png in Resources */ = {isa = PBXBuildFile; fileRef = D614F7C21F2B10B6009B6AE2 /* poi_1.png */; };
+		D614F7C91F2B10B6009B6AE2 /* poi_2.png in Resources */ = {isa = PBXBuildFile; fileRef = D614F7C31F2B10B6009B6AE2 /* poi_2.png */; };
+		D614F7CA1F2B10B6009B6AE2 /* poi.png in Resources */ = {isa = PBXBuildFile; fileRef = D614F7C41F2B10B6009B6AE2 /* poi.png */; };
+		D614F7CB1F2B10B6009B6AE2 /* point.png in Resources */ = {isa = PBXBuildFile; fileRef = D614F7C51F2B10B6009B6AE2 /* point.png */; };
+		D614F7CC1F2B10B6009B6AE2 /* point@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D614F7C61F2B10B6009B6AE2 /* point@2x.png */; };
 		D6210CBA1EAF3F9100B0FB8B /* ChiceController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6210CB91EAF3F9100B0FB8B /* ChiceController.m */; };
 		D62A361F1EB0A1C100DEB3E6 /* SegmentController.m in Sources */ = {isa = PBXBuildFile; fileRef = D62A361E1EB0A1C100DEB3E6 /* SegmentController.m */; };
 		D62A36371EB0A33E00DEB3E6 /* CollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D62A36211EB0A33E00DEB3E6 /* CollectionReusableView.m */; };
@@ -79,6 +90,21 @@
 		D60C33131EA608A500F6683A /* LYCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCalendarCell.h; sourceTree = "<group>"; };
 		D60C33141EA608A500F6683A /* LYCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCalendarCell.m; sourceTree = "<group>"; };
 		D60C33151EA608A500F6683A /* LYCalendarCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYCalendarCell.xib; sourceTree = "<group>"; };
+		D614F7B31F2ACD05009B6AE2 /* MeiTuanMapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeiTuanMapController.h; sourceTree = "<group>"; };
+		D614F7B41F2ACD05009B6AE2 /* MeiTuanMapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeiTuanMapController.m; sourceTree = "<group>"; };
+		D614F7B61F2B09C6009B6AE2 /* RoiResultListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoiResultListView.h; sourceTree = "<group>"; };
+		D614F7B71F2B09C6009B6AE2 /* RoiResultListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoiResultListView.m; sourceTree = "<group>"; };
+		D614F7B91F2B1091009B6AE2 /* PoiResultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoiResultCell.h; sourceTree = "<group>"; };
+		D614F7BA1F2B1091009B6AE2 /* PoiResultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoiResultCell.m; sourceTree = "<group>"; };
+		D614F7BB1F2B1091009B6AE2 /* PoiResultCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PoiResultCell.xib; sourceTree = "<group>"; };
+		D614F7BE1F2B10A0009B6AE2 /* PoiModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoiModel.h; sourceTree = "<group>"; };
+		D614F7BF1F2B10A0009B6AE2 /* PoiModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoiModel.m; sourceTree = "<group>"; };
+		D614F7C11F2B10B6009B6AE2 /* dingwei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dingwei.png; sourceTree = "<group>"; };
+		D614F7C21F2B10B6009B6AE2 /* poi_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poi_1.png; sourceTree = "<group>"; };
+		D614F7C31F2B10B6009B6AE2 /* poi_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poi_2.png; sourceTree = "<group>"; };
+		D614F7C41F2B10B6009B6AE2 /* poi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poi.png; sourceTree = "<group>"; };
+		D614F7C51F2B10B6009B6AE2 /* point.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = point.png; sourceTree = "<group>"; };
+		D614F7C61F2B10B6009B6AE2 /* point@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "point@2x.png"; sourceTree = "<group>"; };
 		D6210CB81EAF3F9100B0FB8B /* ChiceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChiceController.h; sourceTree = "<group>"; };
 		D6210CB91EAF3F9100B0FB8B /* ChiceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChiceController.m; sourceTree = "<group>"; };
 		D62A361D1EB0A1C100DEB3E6 /* SegmentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentController.h; sourceTree = "<group>"; };
@@ -385,8 +411,23 @@
 			children = (
 				D6BE15611F2996F400861E68 /* sportarrow.png */,
 				D6BE155F1F29949100861E68 /* sport_path.json */,
+				D614F7C11F2B10B6009B6AE2 /* dingwei.png */,
+				D614F7C21F2B10B6009B6AE2 /* poi_1.png */,
+				D614F7C31F2B10B6009B6AE2 /* poi_2.png */,
+				D614F7C41F2B10B6009B6AE2 /* poi.png */,
+				D614F7C51F2B10B6009B6AE2 /* point.png */,
+				D614F7C61F2B10B6009B6AE2 /* point@2x.png */,
 				D6BE155C1F2980F500861E68 /* BaiduMapController.h */,
 				D6BE155D1F2980F500861E68 /* BaiduMapController.m */,
+				D614F7B31F2ACD05009B6AE2 /* MeiTuanMapController.h */,
+				D614F7B41F2ACD05009B6AE2 /* MeiTuanMapController.m */,
+				D614F7B61F2B09C6009B6AE2 /* RoiResultListView.h */,
+				D614F7B71F2B09C6009B6AE2 /* RoiResultListView.m */,
+				D614F7B91F2B1091009B6AE2 /* PoiResultCell.h */,
+				D614F7BA1F2B1091009B6AE2 /* PoiResultCell.m */,
+				D614F7BB1F2B1091009B6AE2 /* PoiResultCell.xib */,
+				D614F7BE1F2B10A0009B6AE2 /* PoiModel.h */,
+				D614F7BF1F2B10A0009B6AE2 /* PoiModel.m */,
 			);
 			path = BaiduMap;
 			sourceTree = "<group>";
@@ -502,7 +543,9 @@
 				D62A36391EB0A33E00DEB3E6 /* liwushuo.json in Resources */,
 				D6BE15621F2996F400861E68 /* sportarrow.png in Resources */,
 				D62A36411EB0A33E00DEB3E6 /* RightCollectionCell.xib in Resources */,
+				D614F7C91F2B10B6009B6AE2 /* poi_2.png in Resources */,
 				D66D05BA1EA9A6700020A27A /* cart_shop.png in Resources */,
+				D614F7CA1F2B10B6009B6AE2 /* poi.png in Resources */,
 				D699D0641EA9FDEB00A4563A /* img_close.png in Resources */,
 				D60C33171EA608A500F6683A /* LYCalendarCell.xib in Resources */,
 				D6F9553F1E83A56E00F7125E /* LaunchScreen.storyboard in Resources */,
@@ -511,14 +554,19 @@
 				D66D05B41EA9A49B0020A27A /* cart_cutBtn_highlight@2x.png in Resources */,
 				D66D05B11EA9A49B0020A27A /* back_button@2x.png in Resources */,
 				D6BE15601F29949100861E68 /* sport_path.json in Resources */,
+				D614F7C71F2B10B6009B6AE2 /* dingwei.png in Resources */,
 				D66D05B51EA9A49B0020A27A /* cart_cutBtn_nomal@2x.png in Resources */,
 				D66D05B31EA9A49B0020A27A /* cart_addBtn_nomal@2x.png in Resources */,
+				D614F7C81F2B10B6009B6AE2 /* poi_1.png in Resources */,
+				D614F7CC1F2B10B6009B6AE2 /* point@2x.png in Resources */,
 				D699D0651EA9FDEB00A4563A /* img_open.png in Resources */,
+				D614F7CB1F2B10B6009B6AE2 /* point.png in Resources */,
 				D6F9553A1E83A56E00F7125E /* Main.storyboard in Resources */,
 				D6F417901EA84831004DD115 /* bt_next@2x.png in Resources */,
 				D699D0681EA9FDEB00A4563A /* treeList.plist in Resources */,
 				D66D05B71EA9A49B0020A27A /* cart_selected_btn@2x.png in Resources */,
 				D62A363B1EB0A33E00DEB3E6 /* meituan.json in Resources */,
+				D614F7BD1F2B1091009B6AE2 /* PoiResultCell.xib in Resources */,
 				D66D05B21EA9A49B0020A27A /* cart_addBtn_highlight@2x.png in Resources */,
 				D66D05B81EA9A49B0020A27A /* cart_unSelect_btn@2x.png in Resources */,
 				D6F417911EA84831004DD115 /* bt_previous@2x.png in Resources */,
@@ -583,6 +631,7 @@
 			files = (
 				D60C33161EA608A500F6683A /* LYCalendarCell.m in Sources */,
 				D6A8AABE1E83C42500FDB279 /* UIViewExt.m in Sources */,
+				D614F7C01F2B10A0009B6AE2 /* PoiModel.m in Sources */,
 				D62A36431EB0A33E00DEB3E6 /* RightTableView.m in Sources */,
 				D66D05B01EA9A49B0020A27A /* CartViewController.m in Sources */,
 				D62A36371EB0A33E00DEB3E6 /* CollectionReusableView.m in Sources */,
@@ -599,9 +648,12 @@
 				D62A36401EB0A33E00DEB3E6 /* RightCollectionCell.m in Sources */,
 				D62A361F1EB0A1C100DEB3E6 /* SegmentController.m in Sources */,
 				D62A363D1EB0A33E00DEB3E6 /* CollectionCategoryModel.m in Sources */,
+				D614F7B81F2B09C6009B6AE2 /* RoiResultListView.m in Sources */,
 				D601C2D11EADD1FB00AA465C /* LYWaterFlowLayout.m in Sources */,
 				D66D05AE1EA9A49B0020A27A /* CartModel.m in Sources */,
 				D62A363E1EB0A33E00DEB3E6 /* RightCell.m in Sources */,
+				D614F7BC1F2B1091009B6AE2 /* PoiResultCell.m in Sources */,
+				D614F7B51F2ACD05009B6AE2 /* MeiTuanMapController.m in Sources */,
 				D65B86801EB2F27C00578E19 /* NSString+Extension.m in Sources */,
 				D6BE155E1F2980F500861E68 /* BaiduMapController.m in Sources */,
 				D601C2D41EADD24D00AA465C /* LYLeftWaterAlignedLayout.m in Sources */,
