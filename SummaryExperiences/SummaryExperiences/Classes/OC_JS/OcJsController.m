@@ -9,6 +9,7 @@
 #import "OcJsController.h"
 #import "LYUIWebViewController.h"
 #import "WKWebViewController.h"
+#import "WKWebViewMessageHandlerController.h"
 
 @interface OcJsController ()
 
@@ -33,15 +34,11 @@
     WKWebViewController *webViewC = [[WKWebViewController alloc] init];
     [self.navigationController pushViewController:webViewC animated:YES];
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (IBAction)messageHandler:(id)sender {
+    WKWebViewMessageHandlerController *webViewC = [[WKWebViewMessageHandlerController alloc] init];
+    [self.navigationController pushViewController:webViewC animated:YES];
 }
-*/
+
+
 
 @end

@@ -57,6 +57,8 @@
 		D66D05B71EA9A49B0020A27A /* cart_selected_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D66D05AC1EA9A49B0020A27A /* cart_selected_btn@2x.png */; };
 		D66D05B81EA9A49B0020A27A /* cart_unSelect_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D66D05AD1EA9A49B0020A27A /* cart_unSelect_btn@2x.png */; };
 		D66D05BA1EA9A6700020A27A /* cart_shop.png in Resources */ = {isa = PBXBuildFile; fileRef = D66D05B91EA9A6700020A27A /* cart_shop.png */; };
+		D67625F41F2F1EB7003F66F5 /* WKWebViewMessageHandlerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D67625F31F2F1EB7003F66F5 /* WKWebViewMessageHandlerController.m */; };
+		D67625F61F2F26E3003F66F5 /* index1.html in Resources */ = {isa = PBXBuildFile; fileRef = D67625F51F2F26E3003F66F5 /* index1.html */; };
 		D699D0641EA9FDEB00A4563A /* img_close.png in Resources */ = {isa = PBXBuildFile; fileRef = D699D0591EA9FDEB00A4563A /* img_close.png */; };
 		D699D0651EA9FDEB00A4563A /* img_open.png in Resources */ = {isa = PBXBuildFile; fileRef = D699D05A1EA9FDEB00A4563A /* img_open.png */; };
 		D699D0661EA9FDEB00A4563A /* TreeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D699D05C1EA9FDEB00A4563A /* TreeCell.m */; };
@@ -161,6 +163,9 @@
 		D66D05AC1EA9A49B0020A27A /* cart_selected_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cart_selected_btn@2x.png"; sourceTree = "<group>"; };
 		D66D05AD1EA9A49B0020A27A /* cart_unSelect_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cart_unSelect_btn@2x.png"; sourceTree = "<group>"; };
 		D66D05B91EA9A6700020A27A /* cart_shop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cart_shop.png; sourceTree = "<group>"; };
+		D67625F21F2F1EB7003F66F5 /* WKWebViewMessageHandlerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewMessageHandlerController.h; sourceTree = "<group>"; };
+		D67625F31F2F1EB7003F66F5 /* WKWebViewMessageHandlerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewMessageHandlerController.m; sourceTree = "<group>"; };
+		D67625F51F2F26E3003F66F5 /* index1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index1.html; sourceTree = "<group>"; };
 		D699D0591EA9FDEB00A4563A /* img_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_close.png; sourceTree = "<group>"; };
 		D699D05A1EA9FDEB00A4563A /* img_open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_open.png; sourceTree = "<group>"; };
 		D699D05B1EA9FDEB00A4563A /* TreeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeCell.h; sourceTree = "<group>"; };
@@ -297,6 +302,7 @@
 			isa = PBXGroup;
 			children = (
 				D63532D31F2C5B2A00CFF439 /* index.html */,
+				D67625F51F2F26E3003F66F5 /* index1.html */,
 				D63532CE1F2C42C200CFF439 /* OcJsController.h */,
 				D63532CF1F2C42C200CFF439 /* OcJsController.m */,
 				D63532D01F2C42C200CFF439 /* OcJsController.xib */,
@@ -304,6 +310,8 @@
 				D63532D61F2C5BF000CFF439 /* LYUIWebViewController.m */,
 				D63532D81F2C7DF900CFF439 /* WKWebViewController.h */,
 				D63532D91F2C7DF900CFF439 /* WKWebViewController.m */,
+				D67625F21F2F1EB7003F66F5 /* WKWebViewMessageHandlerController.h */,
+				D67625F31F2F1EB7003F66F5 /* WKWebViewMessageHandlerController.m */,
 			);
 			path = OC_JS;
 			sourceTree = "<group>";
@@ -574,6 +582,7 @@
 				D62A36411EB0A33E00DEB3E6 /* RightCollectionCell.xib in Resources */,
 				D614F7C91F2B10B6009B6AE2 /* poi_2.png in Resources */,
 				D66D05BA1EA9A6700020A27A /* cart_shop.png in Resources */,
+				D67625F61F2F26E3003F66F5 /* index1.html in Resources */,
 				D614F7CA1F2B10B6009B6AE2 /* poi.png in Resources */,
 				D699D0641EA9FDEB00A4563A /* img_close.png in Resources */,
 				D63532D21F2C42C200CFF439 /* OcJsController.xib in Resources */,
@@ -676,6 +685,7 @@
 				D6A8AAC71E83CAAD00FDB279 /* LYCalendarPicker.m in Sources */,
 				D699D0691EA9FDEB00A4563A /* TreeModel.m in Sources */,
 				D62A363A1EB0A33E00DEB3E6 /* LJCollectionViewFlowLayout.m in Sources */,
+				D67625F41F2F1EB7003F66F5 /* WKWebViewMessageHandlerController.m in Sources */,
 				D6210CBA1EAF3F9100B0FB8B /* ChiceController.m in Sources */,
 				D6F955341E83A56E00F7125E /* AppDelegate.m in Sources */,
 				D66D05AF1EA9A49B0020A27A /* CartTableViewCell.m in Sources */,

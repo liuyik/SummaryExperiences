@@ -35,6 +35,14 @@
                         <action selector="WkWebView拦截URL:" destination="-1" eventType="touchUpInside" id="pBg-qR-65f"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uis-Ly-M2E">
+                    <rect key="frame" x="42" y="196" width="266" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="WKWebView MessageHandler拦截URL"/>
+                    <connections>
+                        <action selector="messageHandler:" destination="-1" eventType="touchUpInside" id="lUo-Za-Pt1"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <point key="canvasLocation" x="33.5" y="54.5"/>
