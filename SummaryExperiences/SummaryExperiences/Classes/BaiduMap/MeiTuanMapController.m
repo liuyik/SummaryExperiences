@@ -91,6 +91,18 @@
 
     
 }
+
+- (void)initLocationService {
+    //初始化BMKLocationService
+    _locService = [[BMKLocationService alloc]init];
+    _locService.delegate = self;
+    //设置定位精度
+    _locService.desiredAccuracy = kCLLocationAccuracyBest;
+    CLLocationDistance distance = 10.0;
+    _locService.distanceFilter = distance;
+     [_locService startUserLocationService];
+}
+//定位
 - (void)currentAddressMsg:(UIButton *)sender{
     //初始化BMKLocationService
     _locService = [[BMKLocationService alloc]init];

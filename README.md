@@ -9,6 +9,8 @@
 * [瀑布流](#瀑布流)
 * [分类](#分类)
 * [购物车](#购物车)
+* [百度地图的集成](#百度地图的集成)
+* [OC与JS交互](#OC与JS交互)
 
 ## 日历
 看过一些其它的日历控件，感觉还是自己写个，后面用时自己也好改。
@@ -378,7 +380,18 @@ RATreeView *ratreeView = [[RATreeView alloc] initWithFrame:[UIScreen mainScreen]
 ![](https://github.com/liuyik/SummaryExperiences/blob/master/效果图/购物车.png
 )
 
+ 
+## 百度地图的集成
 
+### 效果图
+![](https://github.com/liuyik/SummaryExperiences/blob/master/百度地图/.png
+)
+
+## OC与JS交互
+
+### 效果图
+![](https://github.com/liuyik/SummaryExperiences/blob/master/OCY与JS交互/.png
+)
 # 未完待续
 
 
