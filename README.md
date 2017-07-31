@@ -384,13 +384,13 @@ RATreeView *ratreeView = [[RATreeView alloc] initWithFrame:[UIScreen mainScreen]
 ## 百度地图的集成
 
 ### 效果图
-![](https://github.com/liuyik/SummaryExperiences/blob/master/百度地图/.png
+![](https://github.com/liuyik/SummaryExperiences/blob/master/效果图/百度地图.png
 )
 
 ## OC与JS交互
 
 ### 效果图
-![](https://github.com/liuyik/SummaryExperiences/blob/master/OCY与JS交互/.png
+![](https://github.com/liuyik/SummaryExperiences/blob/master/效果图/OCY与JS交互.png
 )
 # 未完待续
 
